@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: hsl(217, 54%, 11%);
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    max-width: 1440px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    border: none;
+    margin-top: 3rem;
+}
+
+.equilibrium {
+    width: 260px;
+    border-radius: 10px;
+}
+
+.card {
+    background-color: hsl(216, 50%, 16%);
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+p {
+    max-width: 260px;
+    color: hsl(215, 51%, 70%);
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content p {
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+}
+
+span {
+    color: hsl(215, 51%, 70%);
+}
+
+.ethereum {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+hr {
+    border-color: hsl(215, 51%, 70%);
+}
+
+.card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 8px;
+    margin-top: 20px;
+}
+
+.card-footer img {
+    width: 30px;
+    border: solid 2px #fff;
+    border-radius: 50%;
+}
+
+.card-footer p {
+    font-size: 13px;
+}
+
+.card-footer span {
+    color: #fff;
+    font-weight: 100;
+}
+
+/*############### footer ##############*/
+
+footer {
+    font-size: 13px;
+    text-align: center;
+    color: hsl(214, 28%, 26%);
+    margin-top: 20px;
+}
+
+footer a {
+    color: hsl(214, 28%, 26%);
+}
