@@ -7,13 +7,14 @@ body {
     justify-content: center;
     align-items: center;
     max-width: 1440px;
+    min-height: 100vh;
     font-family: 'Outfit', sans-serif;
 }
 
 .container {
     margin: 0 auto;
     border: none;
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 
 .equilibrium {
@@ -99,7 +100,7 @@ footer {
     font-size: 13px;
     text-align: center;
     color: hsl(214, 28%, 26%);
-    margin-top: 20px;
+    margin-top: 6px;
 }
 
 footer a {
